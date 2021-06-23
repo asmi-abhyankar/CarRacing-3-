@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zen</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+    <script src="Js/Form.js"></script>
+    <script src="Js/Game.js"></script>
+    <script src="Js/Player.js"></script>
+
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyDv0LIFizXFy390O_7_ByL-8qrfGpkky1U",
+        authDomain: "carracing-b1a19.firebaseapp.com",
+        databaseURL: "https://carracing-b1a19-default-rtdb.firebaseio.com",
+        projectId: "carracing-b1a19",
+        storageBucket: "carracing-b1a19.appspot.com",
+        messagingSenderId: "269285684935",
+        appId: "1:269285684935:web:1ead88d484227c8b6eb0e2"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
